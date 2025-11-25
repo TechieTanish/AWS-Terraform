@@ -1,1 +1,9 @@
 terraform.exe
+# Terraform Files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+
+# AWS CLI Virtual Environment
+Day02/aws_env/
