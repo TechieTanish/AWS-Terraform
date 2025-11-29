@@ -1,9 +1,40 @@
-terraform.exe
-# Terraform Files
+# -------------------------------------------------------------------------
+# 💻 Terraform / Infrastructure as Code (IAC) Exclusions
+# -------------------------------------------------------------------------
+
 .terraform/
 .terraform.lock.hcl
 *.tfstate
-*.tfstate.backup
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+*.plan
+crash.log
+*.tfen
+# *.tfvars
+# *.auto.tfvars
 
-# AWS CLI Virtual Environment
+# -------------------------------------------------------------------------
+# 🐍 Python / Virtual Environment Exclusions
+# -------------------------------------------------------------------------
+
+venv/
+env/
+.venv/
 Day02/aws_env/
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# -------------------------------------------------------------------------
+# ⚙️ IDE / Operating System Exclusions (General)
+# -------------------------------------------------------------------------
+
+.vscode/
+.DS_Store
+Thumbs.db
+*~
+#*
+.\#*
