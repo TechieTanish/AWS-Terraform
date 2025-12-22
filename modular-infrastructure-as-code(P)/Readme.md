@@ -19,6 +19,9 @@ The infrastructure includes:
 - **Container Orchestration:** Kubernetes (EKS)
 - **Networking:** Custom VPC, Subnets, Security Groups
 
+<img width="641" height="393" alt="Screenshot 2025-12-22 204241" src="https://github.com/user-attachments/assets/011e95d8-a026-489c-b27e-39b784d34cc5" />
+
+
 ## 🚀 How to Use
 1. **Clone the repo:** `git clone <your-repo-link>`
 2. **Initialize Terraform:** `terraform init`
