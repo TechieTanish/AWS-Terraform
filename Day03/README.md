@@ -1,4 +1,5 @@
 # Day 3: AWS Authentication & S3 Bucket Creation ☁️
+yes
 
 ## 📝 Overview
 Welcome to Day 3 of the Terraform journey! Today, we moved from theory to practice. The focus of this module is to understand how to securely connect Terraform to AWS (Authentication) and provision our first cloud resource: an **Amazon S3 Bucket**.
